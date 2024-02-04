@@ -47,5 +47,5 @@ export default defineConfig({
     ]
   },
   cleanUrls: true,
-  base: '/ws-plugin/'
+  // base: '/ws-plugin/'
 })
