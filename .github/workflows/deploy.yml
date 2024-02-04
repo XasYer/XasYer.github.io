@@ -47,7 +47,7 @@ jobs:
         run: yarn install # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
         run: |
-          yarn run ws-plugin:build
+          yarn run docs:build
           touch ws-plugin/.vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
