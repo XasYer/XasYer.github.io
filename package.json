@@ -1,0 +1,16 @@
+{
+  "name": "XasYer.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XasYer/XasYer.github.io.git",
+  "author": "小叶 <1936472877@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.41"
+  },
+  "scripts": {
+    "ws-plugin:dev": "vitepress dev ws-plugin",
+    "ws-plugin:build": "vitepress build ws-plugin",
+    "ws-plugin:preview": "vitepress preview ws-plugin"
+  }
+}
